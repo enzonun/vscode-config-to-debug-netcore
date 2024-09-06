@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/EasyAppointment.sln",
+                "${workspaceFolder}/{SolutionName}.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/EasyAppointment.sln",
+                "${workspaceFolder}/SolutionName.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/EasyAppointment.sln"
+                "${workspaceFolder}/SolutionName.sln"
             ],
             "problemMatcher": "$msCompile"
         }
