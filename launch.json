@@ -10,17 +10,14 @@
             "request": "launch",
             "requireExactSource": false,
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/EasyAppointment.Api/bin/Debug/net8.0/EasyAppointment.Api.dll",
+            "program": "${workspaceFolder}/${Projectname}.Api/bin/Debug/net8.0/${ProjectName}.Api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/EasyAppointment.Api",
+            "cwd": "${workspaceFolder}/${Projectname}.Api",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
             },
-            // "env": {
-            //     "ASPNETCORE_ENVIRONMENT": "Development"
-            // },
             "launchSettingsProfile": "https",
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
