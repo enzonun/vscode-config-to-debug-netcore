@@ -1,5 +1,5 @@
 {
-  "dotnet.defaultSolution": "EasyAppointment.sln",
+  "dotnet.defaultSolution": "SolutionName.sln",
   "omnisharp.enableRoslynAnalyzers": true,
   "omnisharp.enableEditorConfigSupport": true
 }
