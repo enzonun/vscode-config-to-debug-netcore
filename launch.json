@@ -10,7 +10,7 @@
             "request": "launch",
             "requireExactSource": false,
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/${Projectname}.Api/bin/Debug/net8.0/${ProjectName}.Api.dll",
+            "program": "${workspaceFolder}/${Projectname}.Api/bin/Debug/${DotnetVersion}/${ProjectName}.Api.dll",
             "args": [],
             "cwd": "${workspaceFolder}/${Projectname}.Api",
             "stopAtEntry": false,
